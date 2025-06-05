@@ -14,14 +14,21 @@ Repositorio académico y de práctica con fundamentos de desarrollo web. Contien
 ## 🗂 Estructura de carpetas
 
 📁 01-html-fundamentos
+
 ├── ejercicios/ → Prácticas guiadas
+
 ├── retos/ → Desafíos extra propuestos por el curso
+
 └── entrega-final/ → Proyecto final de la sesión
 
 📁 02-css-basico
+
 📁 03-css-avanzado
+
 📁 04-javascript-basico
+
 📁 05-proyectos-finales → Integración total del curso
+
 📁 recursos → Apuntes, imágenes y material adicional
 
 ---

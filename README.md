@@ -14,6 +14,7 @@ Repositorio académico y de práctica con fundamentos de desarrollo web. Contien
 ## 🗂 Estructura de carpetas
 
 📁 01-html-fundamentos
+
 ├── ejercicios/ → Prácticas guiadas
 
 ├── retos/ → Desafíos extra propuestos por el curso

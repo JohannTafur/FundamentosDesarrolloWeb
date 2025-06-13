@@ -1,0 +1,71 @@
+<!-- Documento HTML5 -->
+<!DOCTYPE html>
+<!-- Informa al navegador que el documento usa la versión HTML5 -->
+
+<html lang="en">
+  <!-- Elemento raíz. 'lang="en"' indica que el contenido está en inglés -->
+
+  <head>
+    <!-- Encabezado invisible para el usuario. Contiene configuraciones del documento -->
+
+    <meta charset="UTF-8" />
+    <!-- Permite usar caracteres especiales como tildes, ñ, símbolos, etc. -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mejora la compatibilidad con versiones antiguas de Internet Explorer -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ajusta el diseño del sitio a pantallas móviles y tablets (responsive design) -->
+
+    <title>Elementos Básicos HTML</title>
+    <!-- Título visible en la pestaña del navegador -->
+  </head>
+
+  <!-- <body style="background-color: powderblue;"> -->
+  <!-- Esta línea está comentada, pero si se activa, cambiará el color de fondo del body -->
+  <body>
+    <!-- Encabezado principal con múltiples estilos en línea -->
+    <h1
+      style="
+        color: blue;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    >
+      Universidad HTML
+    </h1>
+    <!-- Estilos aplicados:
+         - color: azul
+         - tamaño de fuente: 50px
+         - tipo de letra: Courier New, o Courier como alternativa
+    -->
+
+    <!-- Imagen cargada desde carpeta local -->
+    <img
+      src="imagenes/html5.png"
+      alt="Logo HTML5"
+      width="100px"
+      title="Logo HTML5"
+    />
+    <!-- Atributos:
+         - src: ruta del archivo
+         - alt: descripción alternativa (accesibilidad)
+         - width: tamaño visual en píxeles
+         - title: texto que aparece al pasar el cursor
+    -->
+
+    <!-- Párrafo con estilo en línea y atributo title -->
+    <p title="Nuevo párrafo" style="color: red">Este es nuestro párrafo</p>
+    <!-- Atributos:
+         - title: muestra un texto emergente (tooltip)
+         - style: cambia el color del texto a rojo
+    -->
+
+    <!-- Contenido preformateado: respeta espacios, saltos de línea y formato original -->
+    <pre>
+            Este es 
+            nuestro nuevo párrafo
+    </pre>
+    <!-- Ideal para mostrar código o texto exactamente como se escribió -->
+  </body>
+</html>
